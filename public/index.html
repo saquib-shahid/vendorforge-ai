@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +19,7 @@
 
   <link rel="stylesheet" href="/css/style.css">
 </head>
-<body class="dark-theme">
+<body>
   <!-- Ambient background glow effects -->
   <div class="ambient-glow glow-1"></div>
   <div class="ambient-glow glow-2"></div>
@@ -54,6 +54,10 @@
         <a href="#telemetry-section" class="btn-sm btn-ghost" id="view-traces-btn">
           <span>📡 View Traces</span>
         </a>
+        <button id="theme-toggle-btn" class="btn-sm btn-outline theme-toggle-btn" title="Toggle Light / Dark Theme" aria-label="Toggle Theme">
+          <span class="theme-icon">☀️</span>
+          <span class="theme-text">Light</span>
+        </button>
       </div>
     </div>
   </header>
@@ -258,19 +262,19 @@
         </div>
 
         <!-- Output Tabs Navigation -->
-        <div class="output-tabs">
-          <button class="tab-btn active" data-tab="tab-pricing">💰 TabPFN Pricing</button>
-          <button class="tab-btn" data-tab="tab-etsy">🛍️ Etsy Listing</button>
-          <button class="tab-btn" data-tab="tab-ebay">🏷️ eBay Listing</button>
-          <button class="tab-btn" data-tab="tab-social">📱 Instagram / Reels</button>
-          <button class="tab-btn" data-tab="tab-audio">🎙️ ElevenLabs Audio</button>
-          <button class="tab-btn" data-tab="tab-telemetry">📡 Sentry Tracing</button>
+        <div class="output-tabs" role="tablist" aria-label="E-Commerce Agent Outputs">
+          <button class="tab-btn active" role="tab" id="tab-btn-pricing" aria-selected="true" aria-controls="tab-pricing" data-tab="tab-pricing">💰 TabPFN Pricing</button>
+          <button class="tab-btn" role="tab" id="tab-btn-etsy" aria-selected="false" aria-controls="tab-etsy" data-tab="tab-etsy">🛍️ Etsy Listing</button>
+          <button class="tab-btn" role="tab" id="tab-btn-ebay" aria-selected="false" aria-controls="tab-ebay" data-tab="tab-ebay">🏷️ eBay Listing</button>
+          <button class="tab-btn" role="tab" id="tab-btn-social" aria-selected="false" aria-controls="tab-social" data-tab="tab-social">📱 Instagram / Reels</button>
+          <button class="tab-btn" role="tab" id="tab-btn-audio" aria-selected="false" aria-controls="tab-audio" data-tab="tab-audio">🎙️ ElevenLabs Audio</button>
+          <button class="tab-btn" role="tab" id="tab-btn-telemetry" aria-selected="false" aria-controls="tab-telemetry" data-tab="tab-telemetry">📡 Sentry Tracing</button>
         </div>
 
         <!-- Output Tab Content Panes -->
         <div class="tabs-content">
           <!-- Tab 1: TabPFN Pricing & Forecasting -->
-          <div id="tab-pricing" class="tab-pane active">
+          <div id="tab-pricing" class="tab-pane active" role="tabpanel" aria-labelledby="tab-btn-pricing">
             <div class="pricing-dashboard-grid" id="pricing-results">
               <div class="empty-state">
                 <div class="empty-icon">📈</div>
@@ -281,7 +285,7 @@
           </div>
 
           <!-- Tab 2: Etsy Listing -->
-          <div id="tab-etsy" class="tab-pane">
+          <div id="tab-etsy" class="tab-pane" role="tabpanel" aria-labelledby="tab-btn-etsy">
             <div id="etsy-results" class="listing-view">
               <div class="empty-state">
                 <div class="empty-icon">🛍️</div>
@@ -292,7 +296,7 @@
           </div>
 
           <!-- Tab 3: eBay Listing -->
-          <div id="tab-ebay" class="tab-pane">
+          <div id="tab-ebay" class="tab-pane" role="tabpanel" aria-labelledby="tab-btn-ebay">
             <div id="ebay-results" class="listing-view">
               <div class="empty-state">
                 <div class="empty-icon">🏷️</div>
@@ -303,7 +307,7 @@
           </div>
 
           <!-- Tab 4: Shopify & Instagram -->
-          <div id="tab-social" class="tab-pane">
+          <div id="tab-social" class="tab-pane" role="tabpanel" aria-labelledby="tab-btn-social">
             <div id="social-results" class="listing-view">
               <div class="empty-state">
                 <div class="empty-icon">📱</div>
@@ -314,7 +318,7 @@
           </div>
 
           <!-- Tab 5: ElevenLabs Audio Pitch -->
-          <div id="tab-audio" class="tab-pane">
+          <div id="tab-audio" class="tab-pane" role="tabpanel" aria-labelledby="tab-btn-audio">
             <div id="audio-results" class="listing-view">
               <div class="empty-state">
                 <div class="empty-icon">🎙️</div>
@@ -325,7 +329,7 @@
           </div>
 
           <!-- Tab 6: Sentry Agent Tracing -->
-          <div id="tab-telemetry" class="tab-pane">
+          <div id="tab-telemetry" class="tab-pane" role="tabpanel" aria-labelledby="tab-btn-telemetry">
             <div id="telemetry-results" class="listing-view">
               <div class="telemetry-dashboard">
                 <div class="telemetry-header">

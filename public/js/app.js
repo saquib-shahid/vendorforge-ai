@@ -52,12 +52,46 @@ document.addEventListener('DOMContentLoaded', () => {
   // Tab Buttons
   const tabButtons = document.querySelectorAll('.tab-btn');
   const tabPanes = document.querySelectorAll('.tab-pane');
+  const themeToggleBtn = document.getElementById('theme-toggle-btn');
 
   // Initialize
+  setupTheme();
   loadPresets();
   setupTabNavigation();
   setupCsvHandlers();
   loadTelemetryTraces();
+
+  // 0. Theme Toggle
+  function setupTheme() {
+    const savedTheme = localStorage.getItem('vendorforge_theme') || 'light';
+    applyTheme(savedTheme);
+
+    if (themeToggleBtn) {
+      themeToggleBtn.addEventListener('click', () => {
+        const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+        const nextTheme = currentTheme === 'light' ? 'dark' : 'light';
+        applyTheme(nextTheme);
+        localStorage.setItem('vendorforge_theme', nextTheme);
+      });
+    }
+  }
+
+  function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    if (themeToggleBtn) {
+      const icon = themeToggleBtn.querySelector('.theme-icon');
+      const text = themeToggleBtn.querySelector('.theme-text');
+      if (theme === 'light') {
+        if (icon) icon.textContent = '☀️';
+        if (text) text.textContent = 'Light';
+        themeToggleBtn.setAttribute('title', 'Switch to Dark Mode');
+      } else {
+        if (icon) icon.textContent = '🌙';
+        if (text) text.textContent = 'Dark';
+        themeToggleBtn.setAttribute('title', 'Switch to Light Mode');
+      }
+    }
+  }
 
   // 1. Load Presets from API
   async function loadPresets() {
@@ -133,10 +167,14 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.addEventListener('click', () => {
         const target = btn.getAttribute('data-tab');
 
-        tabButtons.forEach(b => b.classList.remove('active'));
+        tabButtons.forEach(b => {
+          b.classList.remove('active');
+          b.setAttribute('aria-selected', 'false');
+        });
         tabPanes.forEach(p => p.classList.remove('active'));
 
         btn.classList.add('active');
+        btn.setAttribute('aria-selected', 'true');
         const targetPane = document.getElementById(target);
         if (targetPane) targetPane.classList.add('active');
       });
