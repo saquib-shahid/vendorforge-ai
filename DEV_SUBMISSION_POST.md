@@ -25,8 +25,8 @@ Any reseller or side-hustler sourcing physical goods who wants to turn their wee
 
 ## 🎥 Demo
 
-* **Live Interactive Application**: Deployed on [Render](https://vendorforge-ai.onrender.com) (or run locally at `http://localhost:3000`)
-* **GitHub Repository**: [github.com/saquib/vendorforge-ai](https://github.com/saquib/vendorforge-ai)
+* **Live Interactive Application**: Deployed on [vendorforge-ai.onrender.com/](https://vendorforge-ai.onrender.com) (or run locally at `http://localhost:3000`)
+* **GitHub Repository**: [github.com/saquib-shahid/vendorforge-ai](https://github.com/saquib-shahid/vendorforge-ai)
 
 ### Key Features Walkthrough:
 * **1-Click Verified Presets**: Test immediately with real vintage comps (*1990s Carhartt Detroit Jacket*, *1977 Polaroid SX-70 SLR Camera*, *Hermès 1980s Silk Carre Scarf*, *1994 Patagonia Retro-X Fleece*).
@@ -42,7 +42,7 @@ Any reseller or side-hustler sourcing physical goods who wants to turn their wee
 The complete source code is open-source and MIT-licensed on GitHub:
 
 ```
-github.com/saquib/vendorforge-ai
+https://github.com/saquib-shahid/vendorforge-ai
 ```
 
 ### Architecture Diagram
@@ -139,13 +139,22 @@ For small-scale entrepreneurs and side-hustlers, open-source AI is not a philoso
 
 ---
 
-## 🤖 My Agent Session
+## 🤖 Show your work
 
-This project was paired and developed with an AI agent harness. You can inspect the preserved development session transcript and workflow trace:
+We'd love to see how you built it. Save your agent session with [DevRelay](https://devrelay.com/) and embed it in your post, or link to it. It's optional, but it helps the judges understand your process.
 
+<!-- DevRelay Interactive Agent Session Embed -->
 {% agent_session ed2620ee-d1d8-40fa-bd2f-77c8d7ddc80a %}
 
-*(Built with DevRelay session logging)*
+* **Direct Session Transcript**: [View Raw Agent Session Transcript (GitHub)](https://github.com/saquib-shahid/vendorforge-ai/blob/main/docs/AGENT_SESSION_TRANSCRIPT.jsonl)
+* **Agent Harness**: Google Antigravity IDE (Gemini 2.5 Coding Agent)
+* **Session ID**: `ed2620ee-d1d8-40fa-bd2f-77c8d7ddc80a`
+
+### How It Was Built (Autonomous Agent Milestones):
+1. **Multi-Model Orchestrator**: Designed a Mastra-style directed agent graph coordinating MongoDB Atlas Vector Memory, SerpApi live comp grounding, Prior Labs TabPFN-3.5 tabular forecasting, Google Gemma 2 listing synthesis, and ElevenLabs voice generation.
+2. **TabPFN-3.5 Tabular ML Integration**: Implemented in-context Bayesian regression over a 20-record historical sales ledger, outputting optimal pricing, liquidity forecast, and 14-day sale probabilities without costly fine-tuning.
+3. **Telemetry & Cost Tracking**: Instrumented real-time Sentry span tracing calculating exact open-source cost savings ($0.00 inference vs closed LLM fees).
+4. **Design System & Responsive Overhaul**: Employed the `agency-ui-designer` design system token architecture to implement a modern Light Theme with dark mode toggle, mobile-first breakpoints, and zero-overflow layout across 320px to 2560px displays.
 
 ---
 
