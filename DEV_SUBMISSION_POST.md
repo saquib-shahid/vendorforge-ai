@@ -143,12 +143,13 @@ For small-scale entrepreneurs and side-hustlers, open-source AI is not a philoso
 
 We'd love to see how you built it. Save your agent session with [DevRelay](https://devrelay.com/) and embed it in your post, or link to it. It's optional, but it helps the judges understand your process.
 
-<!-- DevRelay Interactive Agent Session Embed -->
-{% agent_session ed2620ee-d1d8-40fa-bd2f-77c8d7ddc80a %}
+VendorForge AI was developed and paired with an autonomous AI coding agent. You can inspect the complete, untruncated development session transcript directly in our open-source repository:
 
-* **Direct Session Transcript**: [View Raw Agent Session Transcript (GitHub)](https://github.com/saquib-shahid/vendorforge-ai/blob/main/docs/AGENT_SESSION_TRANSCRIPT.jsonl)
-* **Agent Harness**: Google Antigravity IDE (Gemini 2.5 Coding Agent)
+🔗 **[View Full Agent Session Transcript on GitHub](https://github.com/saquib-shahid/vendorforge-ai/blob/main/docs/AGENT_SESSION_TRANSCRIPT.jsonl)**
+
+* **Agent Harness**: Google Antigravity (Gemini 2.5 Coding Agent)
 * **Session ID**: `ed2620ee-d1d8-40fa-bd2f-77c8d7ddc80a`
+* **Log Archive**: 441 KB structured JSONL transcript recording every prompt, architectural decision, code diff, and visual UI test.
 
 ### How It Was Built (Autonomous Agent Milestones):
 1. **Multi-Model Orchestrator**: Designed a Mastra-style directed agent graph coordinating MongoDB Atlas Vector Memory, SerpApi live comp grounding, Prior Labs TabPFN-3.5 tabular forecasting, Google Gemma 2 listing synthesis, and ElevenLabs voice generation.
