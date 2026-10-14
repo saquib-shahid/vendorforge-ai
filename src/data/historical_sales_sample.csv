@@ -1,0 +1,21 @@
+item_id,brand,category,condition_grade,vintage_era,original_retail_est,market_comps_avg,historical_list_price,days_to_sell,sold_price,sold_within_14d
+VF-101,Carhartt,Workwear Jacket,Good,1990s,120,165,160,6,155,1
+VF-102,Polaroid,Film Camera,Excellent,1970s,180,140,145,11,135,1
+VF-103,Hermes,Silk Scarf,Mint,1980s,450,290,295,4,290,1
+VF-104,Sony,Walkman Cassette,Fair,1980s,110,95,99,28,80,0
+VF-105,Patagonia,Fleece Snap-T,Very Good,1990s,140,115,110,8,105,1
+VF-106,Levi's,501 Redline Denim,Good,1980s,90,185,190,5,180,1
+VF-107,Nike,Air Jordan 1 OG,Fair,1990s,150,220,240,34,200,0
+VF-108,Champion,Reverse Weave Hoodie,Good,1990s,65,85,89,9,85,1
+VF-109,Rolex,Vintage Oyster Box Only,Fair,1960s,100,130,145,45,110,0
+VF-110,Barbour,Bedale Waxed Jacket,Good,2000s,395,210,215,13,205,1
+VF-111,Pendleton,Wool Board Shirt,Very Good,1970s,85,95,90,7,90,1
+VF-112,Bose,Wave Radio CD,Good,1990s,350,130,140,19,125,0
+VF-113,Arc'teryx,Theta AR Gore-Tex,Very Good,2000s,450,280,275,6,270,1
+VF-114,Nintendo,Game Boy Color,Good,1990s,80,90,95,10,90,1
+VF-115,Burberry,Nova Check Trench,Fair,1980s,600,240,260,31,220,0
+VF-116,Filson,Tin Cloth Cruiser,Good,1990s,350,260,255,8,250,1
+VF-117,Apple,iPod Classic 5.5 Gen,Very Good,2000s,250,145,150,5,150,1
+VF-118,Ralph Lauren,Polo Country Knit,Good,1990s,160,130,135,12,125,1
+VF-119,Mamiya,Medium Format Lens,Good,1980s,300,190,210,40,175,0
+VF-120,The North Face,Nuptse 700 Puffer,Very Good,1990s,280,195,190,7,185,1

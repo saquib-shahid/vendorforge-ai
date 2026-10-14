@@ -1,0 +1,74 @@
+[
+  {
+    "id": "carhartt-detroit-1990s",
+    "title": "Vintage 1990s Carhartt J97 Detroit Jacket (Moss Green)",
+    "brand": "Carhartt",
+    "category": "Workwear & Outerwear",
+    "vintage_era": "1990s (Made in USA)",
+    "condition_grade": "Good (Distressed with authentic patina)",
+    "colors": ["Moss Green", "Brown Corduroy Collar"],
+    "materials": "100% Heavyweight Cotton Duck Canvas, Blanket Lined",
+    "features": "Corduroy collar, zippered chest pocket, brass hardware, union made tag, natural fading and wear.",
+    "purchase_cost": 25.00,
+    "market_comps": [
+      { "platform": "eBay Sold", "title": "Carhartt Detroit Jacket J97 MOS Large", "price": 175.00, "daysAgo": 2 },
+      { "platform": "Etsy Active", "title": "90s Distressed Carhartt Moss Green Detroit Jacket", "price": 195.00, "daysAgo": 5 },
+      { "platform": "Poshmark Sold", "title": "Vintage Carhartt USA Canvas Detroit Jacket", "price": 160.00, "daysAgo": 8 }
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1548883354-7622d03aca27?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "polaroid-sx70-1970s",
+    "title": "1977 Polaroid SX-70 Alpha 1 Model 2 Folding Camera",
+    "brand": "Polaroid",
+    "category": "Vintage Electronics & Photography",
+    "vintage_era": "1970s",
+    "condition_grade": "Excellent (Tested, clean optics, fresh brown leatherette)",
+    "colors": ["Chrome / Black", "Tan Leatherette"],
+    "materials": "Glass 4-element 116mm f/8 lens, brushed chrome chassis",
+    "features": "Single Lens Reflex folding system, split-image rangefinder, manual wheel focus, fully functional bellows.",
+    "purchase_cost": 30.00,
+    "market_comps": [
+      { "platform": "eBay Sold", "title": "Polaroid SX-70 Alpha 1 Tested & Working", "price": 149.00, "daysAgo": 1 },
+      { "platform": "Etsy Active", "title": "Vintage 1970s Polaroid SX-70 Folding SLR", "price": 165.00, "daysAgo": 4 },
+      { "platform": "eBay Sold", "title": "Polaroid SX70 Instant Camera Near Mint", "price": 139.00, "daysAgo": 7 }
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "hermes-silk-scarf-1980s",
+    "title": "Authentic Hermès 'Grand Apparat' 90cm Silk Twill Carre Scarf",
+    "brand": "Hermès",
+    "category": "Luxury Accessories & Vintage Silk",
+    "vintage_era": "1980s",
+    "condition_grade": "Mint (Plump hand-rolled edges, no stains or pulls)",
+    "colors": ["Navy Blue", "Gold", "Ivory"],
+    "materials": "100% Silk Twill (Soie)",
+    "features": "Designed by Jacques Eudel, equestrian ceremonial harness motifs, hand-rolled hem, copyright Hermès mark.",
+    "purchase_cost": 45.00,
+    "market_comps": [
+      { "platform": "The RealReal Sold", "title": "Hermes Grand Apparat 90 Silk Scarf", "price": 310.00, "daysAgo": 3 },
+      { "platform": "eBay Sold", "title": "Vintage Hermes Silk Scarf Grand Apparat Blue Gold", "price": 285.00, "daysAgo": 6 },
+      { "platform": "Etsy Active", "title": "Authentic Hermes Paris Carre 90 Silk Equestrian Scarf", "price": 325.00, "daysAgo": 10 }
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "patagonia-retrox-fleece",
+    "title": "1994 Patagonia Retro-X Deep Pile Fleece Cardigan (Natural)",
+    "brand": "Patagonia",
+    "category": "Vintage Outdoor & Apparel",
+    "vintage_era": "1990s (Fall 1994 P.E.F. Barrier)",
+    "condition_grade": "Very Good (Plush pile, clean ribbing, original zippers)",
+    "colors": ["Natural Cream", "Hunter Green Contrast"],
+    "materials": "Deep Pile Sherpa Fleece with P.E.F. Windproof Mesh Membrane",
+    "features": "Cardigan full-zip style, hunter green chest pocket with woven P-6 patch, YKK USA zippers, elastic trim cuffs.",
+    "purchase_cost": 20.00,
+    "market_comps": [
+      { "platform": "eBay Sold", "title": "Patagonia Retro X Deep Pile Fleece Cardigan M", "price": 195.00, "daysAgo": 2 },
+      { "platform": "Grailed Sold", "title": "Vintage 90s Patagonia Retro Cardigan Fleece", "price": 215.00, "daysAgo": 5 },
+      { "platform": "eBay Sold", "title": "1990s Patagonia Fleece Sherpa Jacket", "price": 180.00, "daysAgo": 9 }
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=800&q=80"
+  }
+]

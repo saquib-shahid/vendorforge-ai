@@ -1,0 +1,29 @@
+{
+  "name": "vendorforge-ai",
+  "version": "1.0.0",
+  "description": "Autonomous Reseller Copilot powered by Open-Source AI (Gemma 2, TabPFN, Mastra, Sentry, Render)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "hacktoberfest",
+    "open-source-ai",
+    "gemma2",
+    "tabpfn",
+    "mastra",
+    "sentry",
+    "render",
+    "side-hustle",
+    "resale-ai"
+  ],
+  "author": "Antigravity Pair Programmer",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
